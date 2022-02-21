@@ -74,9 +74,9 @@ String  timeStr="${now.year.toString()}-${now.month.toString().padLeft(2,'0')}-$
 print(timeStr);
 
 10、手机当前的时区
-ptint('${DateTime.now().timeZoneName}');//CST
+print('${DateTime.now().timeZoneName}');//CST
 
 11、手机当前的时区的偏移量
-ptint('${DateTime.now().timeZoneOffset}');//8:00:00.000000  缩写为+8.00
+print('${DateTime.now().timeZoneOffset}');//8:00:00.000000  缩写为+8.00
 
 ```
